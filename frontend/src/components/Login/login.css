@@ -1,0 +1,43 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+}
+
+.login .picture {
+  width: 50%;
+}
+
+.login .picture img {
+  width: 100%;
+}
+
+.login .loginForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.login .loginForm .input {
+  width: 400px;
+  height: 60px;
+  margin: 35px;
+  padding-left: 8px;
+  border: 2px solid black;
+  border-radius: 20px;
+  outline: none;
+}
+
+.login .loginForm .button {
+  height: 60px;
+  width: 120px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background-color: rgba(22, 41, 126, 0.8);
+}
+/*# sourceMappingURL=login.css.map */

@@ -1,11 +1,62 @@
-import React from 'react'
+import React, { useState, useEffect } from "react";
+import "./destination.css";
+import DestinationTemplate from "../DestinationTemplate/DestinationTemplate";
+import { v4 as uuidv4 } from "uuid";
 
-function Destination() {
-	return (
-		<div>
-			<h1>This is a Destination page</h1>
-		</div>
-	)
-}
+const Destination = () => {
+  const [data, setData] = useState([]);
+  const [callData, setCallData] = useState(true);
+  const [city, setCity] = useState("");
 
-export default Destination
+  const [response, setResponse] = useState(true);
+  const [isShow, setIsShow] = useState(true);
+
+  useEffect(() => {
+    setData([]);
+
+    fetch(`http://localhost:4000/destination/${city}`)
+      .then((response) => response.json())
+      .then((data) => setData(data))
+      .catch((error) => setData([]));
+  }, [callData]);
+
+	
+  const searchButton = () => {
+    setCallData(!callData);
+
+    fetch(`http://localhost:4000/destination/${city}`, {
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        city: city,
+      }),
+    })
+      .then((response) => setResponse(response))
+      .catch((error) => setResponse(false));
+  };
+
+  return (
+    <div className="destination">
+      <div className="input-button">
+        <input
+          type="text"
+          placeholder="search city..."
+          onChange={(e) => setCity(e.target.value)}
+          onFocus={(e) => setCity((e.target.value = ""))}
+        />
+        <button onClick={searchButton}>Search</button>
+      </div>
+
+      <div className="destination-temp">
+        {data.map((item) => (
+          <DestinationTemplate key={uuidv4()} item={item} />
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Destination;

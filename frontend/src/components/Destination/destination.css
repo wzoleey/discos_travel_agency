@@ -1,0 +1,16 @@
+.destination {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.destination .input-button {
+  margin-top: 30px;
+}
+
+.destination .destination-temp {
+  display: flex;
+  margin: 50px;
+  max-width: 90vw;
+}
+/*# sourceMappingURL=destination.css.map */

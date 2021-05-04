@@ -1,0 +1,43 @@
+.registration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+}
+
+.registration .picture {
+  width: 50%;
+}
+
+.registration .picture img {
+  width: 100%;
+}
+
+.registration .registrationForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.registration .registrationForm .input {
+  width: 400px;
+  height: 60px;
+  margin: 25px;
+  padding-left: 8px;
+  border: 2px solid black;
+  border-radius: 20px;
+  outline: none;
+}
+
+.registration .registrationForm .button {
+  height: 60px;
+  width: 120px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background-color: rgba(22, 41, 126, 0.8);
+}
+/*# sourceMappingURL=registration.css.map */

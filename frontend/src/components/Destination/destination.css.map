@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAC;EACZ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;CASnB;;AAZD,AAIC,YAJW,CAIX,aAAa,CAAC;EACb,UAAU,EAAE,IAAI;CAChB;;AANF,AAOC,YAPW,CAOX,iBAAiB,CAAC;EACjB,OAAO,EAAE,IAAI;EACb,MAAM,EAAE,IAAI;EACZ,SAAS,EAAE,IAAI;CACf",
+    "sources": [
+        "destination.scss"
+    ],
+    "names": [],
+    "file": "destination.css"
+}

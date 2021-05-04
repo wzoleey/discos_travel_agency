@@ -1,0 +1,23 @@
+[
+	{
+		"city": "London",
+		"hotel_name": "Park Plaza",
+		"number_of_rooms": 40,
+		"price": 300,
+		"image": "./Paris.jpg"
+	},
+	{
+		"city": "Paris",
+		"hotel_name": "Résidence Charles Floquet",
+		"number_of_rooms": 10,
+		"price": 700,
+		"image": "./Paris.jpg"
+	},
+	{
+		"city": "Luxembourg",
+		"hotel_name": "Melia Luxembourg",
+		"number_of_rooms": 25,
+		"price": 550,
+		"image": "./Paris.jpg"
+	}
+]

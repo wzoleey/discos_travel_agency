@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAC;EACL,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,MAAM;CACxB",
+    "sources": [
+        "destinationTemplate.scss"
+    ],
+    "names": [],
+    "file": "destinationTemplate.css"
+}

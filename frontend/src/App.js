@@ -6,6 +6,8 @@ import IndexPage from "./components/IndexPage/IndexPage";
 import Destination from "./components/Destination/Destination";
 import LastMinute from "./components/LastMinute/LastMinute";
 import Registration from "./components/Registration/Registration";
+import Login from "./components/Login/Login";
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
           <Route path="/destination" component={Destination} />
           <Route path="/last_minute" component={LastMinute} />
           <Route path="/registration" component={Registration} />
+          <Route path="/login" component={Login} />
         </Switch>
       </div>
     </Router>

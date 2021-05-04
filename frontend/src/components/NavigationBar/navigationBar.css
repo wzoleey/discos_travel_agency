@@ -1,10 +1,51 @@
 .nav_links {
   list-style-type: none;
+  background-color: rgba(52, 56, 73, 0.8);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
 }
 
-.nav_links a {
+.nav_links li {
   text-decoration: none;
   display: inline-block;
-  margin-right: 20px;
+  color: white;
+  margin: 40px 40px 0px 0px;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.nav_links li:hover {
+  border-bottom: #bbbbce 3px solid;
+  border-bottom-width: 50%;
+}
+
+.nav_links .discosTravel {
+  position: relative;
+  top: -45px;
+  left: -350px;
+  color: #bbbbce;
+  font-size: 20px;
+  letter-spacing: 5px;
+  border-bottom: none;
+}
+
+.nav_links .discosTravel span {
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.nav_links .discosTravel .travel {
+  color: white;
+  font-size: 20px;
+}
+
+.nav_links .discosTravel .travel .t {
+  font-size: 50px;
+}
+
+.nav_links .discosTravel:hover {
+  border-bottom: none;
 }
 /*# sourceMappingURL=navigationBar.css.map */

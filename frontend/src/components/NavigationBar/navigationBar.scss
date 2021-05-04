@@ -1,8 +1,46 @@
+$firstC: rgb(187, 187, 206);
+$blue: rgba(52, 56, 73, 0.8);
+
 .nav_links {
-	list-style-type: none;
-	a {
-		text-decoration: none;
-		display: inline-block;
-		margin-right: 20px;
-	}
+  list-style-type: none;
+  background-color: $blue;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  li {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    margin: 40px 40px 0px 0px;
+    font-size: 18px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  li:hover {
+    border-bottom: $firstC 3px solid;
+    border-bottom-width: 50%;
+  }
+  .discosTravel {
+    position: relative;
+    top: -45px;
+    left: -350px;
+    color: $firstC;
+    font-size: 20px;
+    letter-spacing: 5px;
+    border-bottom: none;
+    span {
+      font-size: 80px;
+      font-weight: 600;
+    }
+    .travel {
+      color: white;
+      font-size: 20px;
+      .t {
+        font-size: 50px;
+      }
+    }
+  }
+  .discosTravel:hover {
+    border-bottom: none;
+  }
 }
