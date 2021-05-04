@@ -1,0 +1,26 @@
+.indexPageContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.indexPageContent h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  background-color: rosybrown;
+  height: 80px;
+  width: 100%;
+}
+
+.indexPageContent p {
+  width: 100%;
+  font-size: 20px;
+  margin-top: 50px;
+  padding: 0px 100px;
+  line-height: 35px;
+}
+/*# sourceMappingURL=indexPageContent.css.map */

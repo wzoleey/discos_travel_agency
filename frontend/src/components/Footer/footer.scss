@@ -1,0 +1,42 @@
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  background-color: gray;
+  .contact {
+    p {
+      color: white;
+      font-size: 16px;
+      letter-spacing: 3px;
+    }
+  }
+  .social-media {
+    display: flex;
+    i {
+      margin: 18px;
+    }
+    .fa-facebook {
+      color: #4267b2;
+    }
+    .fa-twitter {
+      color: #1da1f2;
+    }
+    .fa-linkedin {
+      color: #0077b5;
+    }
+    .fa-instagram {
+      color: transparent;
+      background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+      background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+      background-clip: text;
+      -webkit-background-clip: text;
+    }
+  }
+  a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+}

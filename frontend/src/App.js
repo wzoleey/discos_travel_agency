@@ -8,7 +8,6 @@ import LastMinute from "./components/LastMinute/LastMinute";
 import Registration from "./components/Registration/Registration";
 import Login from "./components/Login/Login";
 
-
 function App() {
   return (
     <Router>

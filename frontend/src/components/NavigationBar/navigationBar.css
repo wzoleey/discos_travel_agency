@@ -17,7 +17,7 @@
 }
 
 .nav_links li:hover {
-  border-bottom: #bbbbce 3px solid;
+  border-bottom: #66927e 3px solid;
   border-bottom-width: 50%;
 }
 
@@ -25,7 +25,7 @@
   position: relative;
   top: -45px;
   left: -350px;
-  color: #bbbbce;
+  color: white;
   font-size: 20px;
   letter-spacing: 5px;
   border-bottom: none;
