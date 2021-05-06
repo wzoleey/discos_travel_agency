@@ -2,16 +2,32 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+	h3 {
+		margin: 40px 0px 0px 0px;
+	}
   .input-button {
-    margin-top: 30px;
+    margin: 30px 0px;
     input {
       height: 40px;
       width: 200px;
       margin-right: 30px;
+      outline: none;
+      text-align: center;
+			color: white;
+			background-color: rgba(52, 56, 73, 0.8); 
+			border: none;
+			border-radius: 10px;
     }
+		::placeholder {
+			color: white;
+		}
     button {
       height: 40px;
       width: 100px;
+      border-radius: 10px;
+			color: white;
+      background-color: rosybrown;
+			border: none;
     }
   }
   .destination-temp {
@@ -19,7 +35,6 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
     width: 90vw;
   }
 }

@@ -15,7 +15,7 @@
   opacity: 0.9;
 }
 
-.card h2 {
+.card h3 {
   color: rosybrown;
   margin: 20px 0px;
   z-index: 9999;
@@ -43,7 +43,7 @@
   height: 40px;
   width: 100px;
   border: none;
-  border-radius: 20px;
+  border-radius: 10px;
   color: white;
   font-size: 15px;
   background-color: rosybrown;
@@ -74,6 +74,17 @@
   margin-left: 15px;
 }
 
+.card .moreInfo .rightSide .gallery {
+  height: 40px;
+  width: 100px;
+  margin-left: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(136, 144, 180, 0.8);
+  color: white;
+  font-size: 20px;
+}
+
 .card .moreInfo .leftSide {
   width: 50%;
 }
@@ -83,6 +94,17 @@
   font-size: 18px;
   padding: 3px;
   margin-left: 15px;
+}
+
+.card .moreInfo .leftSide .reservation {
+  height: 40px;
+  width: 110px;
+  margin-left: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(136, 144, 180, 0.8);
+  color: white;
+  font-size: 20px;
 }
 
 .card .moreInfo .leftSide .star {

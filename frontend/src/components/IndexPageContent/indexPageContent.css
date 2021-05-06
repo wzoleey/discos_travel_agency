@@ -23,4 +23,12 @@
   padding: 0px 100px;
   line-height: 35px;
 }
+
+@media (max-width: 810px) {
+  .indexPageContent p {
+    font-size: 22px;
+    margin-top: 30px;
+    padding: 0px 20px;
+  }
+}
 /*# sourceMappingURL=indexPageContent.css.map */

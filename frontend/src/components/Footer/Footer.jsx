@@ -22,7 +22,7 @@ function Footer() {
         <i class="fab fa-twitter fa-3x"></i>
       </div>
       <a href="http://localhost:3000/">
-        <i class="fas fa-arrow-up fa-3x"></i>{" "}
+        <i class="fas fa-home fa-3x"></i>{" "}
       </a>
     </div>
   );

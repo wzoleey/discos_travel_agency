@@ -41,6 +41,7 @@ const Destination = () => {
 
   return (
     <div className="destination">
+			<h3>Book with us the most original hotels in Europe.</h3>
       <div className="input-button">
         <input
           type="text"

@@ -20,9 +20,9 @@ function NavigationBar() {
         <Link to="/destination">
           <li>Destination</li>
         </Link>
-        <Link to="/last_minute">
+        {/*<Link to="/last_minute">
           <li>Last Minute</li>
-        </Link>
+				</Link>*/}
         <Link to="/registration">
           <li>Registration</li>
         </Link>

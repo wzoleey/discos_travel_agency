@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import "./destinationTemplate.css";
+import Reservation from "../Reservation/Reservation";
 
 function DestinationTemplate({ hotels }) {
   const [showMore, setShowMore] = useState(false);
+  const [reservation, setReservation] = useState(false);
 
   return (
     <div className="card">
-      <h2>{hotels.hotel_name}</h2>
+      <h3>{hotels.hotel_name}</h3>
       <h4>{hotels.city}</h4>
       <p className="price">
         Price: <span>{hotels.price}€</span> /day/person
@@ -27,6 +29,7 @@ function DestinationTemplate({ hotels }) {
             <p>Wellness: {hotels.wellness ? <i class="fas fa-spa"></i> : <i class="far fa-frown"></i>}</p>
             <p>Wifi: {hotels.wifi ? <i class="fas fa-wifi"></i> : <i class="far fa-frown"></i>}</p>
           </div>
+
           <div className="rightSide">
             <p>Pets: {hotels.pets ? <i class="fas fa-paw"></i> : <i class="far fa-frown"></i>}</p>
             <p>Fitness: {hotels.fitness ? <i class="fas fa-dumbbell"></i> : <i class="far fa-frown"></i>}</p>
