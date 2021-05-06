@@ -8,10 +8,13 @@ function NavigationBar() {
       <ul className="nav_links">
         <Link to="/">
           <li className="discosTravel">
-            <span>D</span>iscos{" "}
+            <span className="D">D</span>iscos
             <span className="travel">
               <span className="t">t</span>ravel
             </span>
+            <i class="fas fa-envelope fa-1x"></i>
+            <i class="fas fa-phone-alt fa-1x"></i>
+            <i class="fas fa-mobile-alt"></i>
           </li>
         </Link>
         <Link to="/destination">

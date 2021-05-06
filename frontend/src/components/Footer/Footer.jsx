@@ -5,9 +5,15 @@ function Footer() {
   return (
     <div className="footer">
       <div className="contact">
-        <p>Phone Number: 0620/4567854</p>
-        <p>Email: discos.travel@gmail.com</p>
-        <p>Address: 6640 Eger, Dobó István tér 20/b </p>
+        <p>
+          <span>Phone Number:</span> 0620/4567854
+        </p>
+        <p>
+          <span>Email:</span> discos.travel@gmail.com
+        </p>
+        <p>
+          <span>Address:</span> 6640 Eger, Dobó István tér 20/b{" "}
+        </p>
       </div>
       <div className="social-media">
         <i class="fab fa-facebook fa-3x"></i>

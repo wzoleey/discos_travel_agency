@@ -1,18 +1,18 @@
 import "./App.css";
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import NavigationBar from "./components/NavigationBar/NavigationBar";
 import IndexPage from "./components/IndexPage/IndexPage";
 import Destination from "./components/Destination/Destination";
 import LastMinute from "./components/LastMinute/LastMinute";
 import Registration from "./components/Registration/Registration";
 import Login from "./components/Login/Login";
+import NavigationBar from "./components/NavigationBar/NavigationBar";
 
 function App() {
   return (
     <Router>
+      <NavigationBar />
       <div className="App">
-        <NavigationBar />
         <Switch>
           <Route path="/" exact component={IndexPage} />
           <Route path="/destination" component={Destination} />
@@ -21,6 +21,7 @@ function App() {
           <Route path="/login" component={Login} />
         </Switch>
       </div>
+			
     </Router>
   );
 }

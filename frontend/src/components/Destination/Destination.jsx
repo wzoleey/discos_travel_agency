@@ -11,6 +11,7 @@ const Destination = () => {
   const [response, setResponse] = useState(true);
   const [isShow, setIsShow] = useState(true);
 
+  console.log(data);
   useEffect(() => {
     setData([]);
 
@@ -20,9 +21,9 @@ const Destination = () => {
       .catch((error) => setData([]));
   }, [callData]);
 
-	
   const searchButton = () => {
     setCallData(!callData);
+    setIsShow(!isShow);
 
     fetch(`http://localhost:4000/destination/${city}`, {
       method: "POST",
@@ -51,8 +52,8 @@ const Destination = () => {
       </div>
 
       <div className="destination-temp">
-        {data.map((item) => (
-          <DestinationTemplate key={uuidv4()} item={item} />
+        {data.map((hotels) => (
+          <DestinationTemplate key={uuidv4()} hotels={hotels} />
         ))}
       </div>
     </div>

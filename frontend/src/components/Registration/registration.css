@@ -34,10 +34,11 @@
 
 .registration .registrationForm .button {
   height: 60px;
-  width: 120px;
+  width: 160px;
   border: none;
   border-radius: 20px;
   color: white;
-  background-color: rgba(22, 41, 126, 0.8);
+  font-size: 20px;
+  background-color: rosybrown;
 }
 /*# sourceMappingURL=registration.css.map */

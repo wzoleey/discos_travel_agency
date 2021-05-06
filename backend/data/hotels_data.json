@@ -4,20 +4,44 @@
 		"hotel_name": "Park Plaza",
 		"number_of_rooms": 40,
 		"price": 300,
-		"image": "./Paris.jpg"
+		"image": "/images/London.jpg",
+		"rating": 7.3,
+		"parking": true,
+		"wellness": true,
+		"wifi": true,
+		"pets": false,
+		"fitness": false,
+		"restaurant": false,
+		"bar": true
 	},
 	{
 		"city": "Paris",
 		"hotel_name": "Résidence Charles Floquet",
 		"number_of_rooms": 10,
 		"price": 700,
-		"image": "./Paris.jpg"
+		"image": "/images/Paris.jpg",
+		"rating": 8.4,
+		"parking": false,
+		"wellness": true,
+		"wifi": false,
+		"pets": true,
+		"fitness": false,
+		"restaurant": true,
+		"bar": true
 	},
 	{
 		"city": "Luxembourg",
 		"hotel_name": "Melia Luxembourg",
 		"number_of_rooms": 25,
 		"price": 550,
-		"image": "./Paris.jpg"
+		"image": "/images/Luxembourg.jpg",
+		"rating": 7.3,
+		"parking": false,
+		"wellness": false,
+		"wifi": true,
+		"pets": true,
+		"fitness": false,
+		"restaurant": false,
+		"bar": false
 	}
 ]

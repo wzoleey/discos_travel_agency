@@ -1,31 +1,38 @@
 .nav_links {
+  display: flex;
+  justify-content: center;
   list-style-type: none;
   background-color: rgba(52, 56, 73, 0.8);
   height: 100px;
+  margin: 0;
+}
+
+.nav_links a {
   display: flex;
   justify-content: center;
-  margin: 0;
+  align-items: center;
+  margin-right: 60px;
+  text-decoration: none;
 }
 
 .nav_links li {
   text-decoration: none;
-  display: inline-block;
   color: white;
-  margin: 40px 40px 0px 0px;
   font-size: 18px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .nav_links li:hover {
-  border-bottom: #66927e 3px solid;
+  border-bottom: rosybrown 3px solid;
   border-bottom-width: 50%;
+  margin: 0;
+  padding: 0;
 }
 
 .nav_links .discosTravel {
   position: relative;
-  top: -45px;
-  left: -350px;
-  color: white;
+  left: -250px;
+  color: rosybrown;
   font-size: 20px;
   letter-spacing: 5px;
   border-bottom: none;
@@ -43,6 +50,10 @@
 
 .nav_links .discosTravel .travel .t {
   font-size: 50px;
+}
+
+.nav_links .discosTravel .fas {
+  margin-left: 20px;
 }
 
 .nav_links .discosTravel:hover {

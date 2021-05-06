@@ -5,6 +5,7 @@ const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const routesUrls = require("./routes/routes");
 const cors = require("cors");
+let fs = require("fs");
 
 dotenv.config();
 
@@ -22,10 +23,16 @@ app.get("/destination", (req, res) => {
   res.send(hotelDatabase);
 });
 
-app.get("/destination/city/:city", (req, res) => {
+app.get("/destination/:city", (req, res) => {
   const city = hotelDatabase.filter((item) => item.city === req.params.city);
   if (!city) res.status(404).send("The cars width the given brand was not found.");
   res.send(city);
+});
+
+app.get("/destination/:image", (req, res) => {
+  const image = hotelDatabase.filter((item) => item.image === req.params.image);
+  if (!image) res.status(404).send("The cars width the given brand was not found.");
+  res.send(image);
 });
 
 app.listen(PORT, () => console.log("Server is run on this", PORT));
