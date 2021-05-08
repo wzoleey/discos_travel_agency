@@ -1,42 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "./login.css";
 
 const Login = () => {
-  const [inputData, setInputData] = useState(false);
-
-  /*useEffect(() => {
-    if (inputData) {
-      const userData = document.querySelectorAll(".input");
-      const userDataArr = {};
-      for (let data of userData) {
-        userDataArr[data.name] = data.value;
-      }
-
-      //console.log(userDataArr);
-      let formData = new FormData();
-
-      formData.append("userdata", JSON.stringify(userDataArr));
-
-      fetch("http://localhost:4000/app/register", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(userDataArr),
-      })
-        .then((response) => response.json())
-        .then((data) => {
-          console.log("Success:", data);
-        })
-        .catch((error) => {
-          console.log("Error:", error);
-        });
-
-      setInputData(false);
-    }
-  }, [inputData]);*/
-
+  // Login not ready.
   return (
     <div className="login">
       <div className="picture">
@@ -51,7 +18,7 @@ const Login = () => {
           name="email"
           id="email"
           placeholder="Email"
-          onFocus={(e) => setInputData((e.target.value = ""))}
+          //onFocus={(e) => setInputData((e.target.value = ""))}
         />
 
         <input
@@ -60,10 +27,10 @@ const Login = () => {
           name="password"
           id="password"
           placeholder="Password"
-          onFocus={(e) => setInputData((e.target.value = ""))}
+          //onFocus={(e) => setInputData((e.target.value = ""))}
         />
 
-        <input className="button" type="button" value="Submit" onClick={() => setInputData(true)} />
+        <input className="button" type="button" value="Submit" />
       </div>
     </div>
   );

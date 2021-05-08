@@ -49,6 +49,13 @@
   outline: none;
 }
 
+@media (max-width: 660px) {
+  .login .loginForm .input {
+    width: 320px;
+    height: 50px;
+  }
+}
+
 .login .loginForm .button {
   height: 60px;
   width: 160px;
@@ -57,5 +64,12 @@
   color: white;
   font-size: 20px;
   background-color: rosybrown;
+}
+
+@media (max-width: 660px) {
+  .login .loginForm .button {
+    height: 50px;
+    width: 140px;
+  }
 }
 /*# sourceMappingURL=login.css.map */

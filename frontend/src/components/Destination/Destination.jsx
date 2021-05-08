@@ -41,11 +41,11 @@ const Destination = () => {
 
   return (
     <div className="destination">
-			<h3>Book with us the most original hotels in Europe.</h3>
+			<h3>Book a hotel with us from anywhere in the world.</h3>
       <div className="input-button">
         <input
           type="text"
-          placeholder="search city..."
+          placeholder="search city"
           onChange={(e) => setCity(e.target.value)}
           onFocus={(e) => setCity((e.target.value = ""))}
         />

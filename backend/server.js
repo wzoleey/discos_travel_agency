@@ -29,10 +29,4 @@ app.get("/destination/:city", (req, res) => {
   res.send(city);
 });
 
-app.get("/destination/:image", (req, res) => {
-  const image = hotelDatabase.filter((item) => item.image === req.params.image);
-  if (!image) res.status(404).send("The cars width the given brand was not found.");
-  res.send(image);
-});
-
 app.listen(PORT, () => console.log("Server is run on this", PORT));

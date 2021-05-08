@@ -1,3 +1,13 @@
+.MuiButtonBase-root {
+  visibility: hidden;
+}
+
+@media (max-width: 880px) {
+  .MuiButtonBase-root {
+    visibility: visible;
+  }
+}
+
 .nav_links {
   display: flex;
   justify-content: center;
@@ -7,10 +17,9 @@
   margin: 0;
 }
 
-@media (max-width: 800px) {
-  .nav_links {
-    padding: 20px;
-    height: 200px;
+@media (max-width: 880px) {
+  .nav_links .rightLink {
+    display: none;
   }
 }
 

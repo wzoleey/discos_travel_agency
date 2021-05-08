@@ -6,7 +6,10 @@ function Footer() {
     <div className="footer">
       <div className="contact">
         <p>
-          <span>Phone Number:</span> 0620/4567854
+          <span>Phone number:</span> 0665/376485
+        </p>
+        <p>
+          <span>Mobile number:</span> 0620/4567854
         </p>
         <p>
           <span>Email:</span> discos.travel@gmail.com

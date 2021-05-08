@@ -1,6 +1,13 @@
 $firstC: rosybrown;
 $blue: rgba(52, 56, 73, 0.8);
 
+.MuiButtonBase-root {
+  visibility: hidden;
+  @media (max-width: 880px) {
+    visibility: visible;
+  }
+}
+
 .nav_links {
   display: flex;
   justify-content: center;
@@ -8,10 +15,11 @@ $blue: rgba(52, 56, 73, 0.8);
   background-color: $blue;
   height: 100px;
   margin: 0;
-	@media (max-width: 800px) {
-		padding: 20px;
-		height: 200px;
-	}
+  .rightLink {
+    @media (max-width: 880px) {
+      display: none;
+    }
+  }
   a {
     display: flex;
     justify-content: center;

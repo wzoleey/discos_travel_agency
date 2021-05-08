@@ -2,4 +2,28 @@
   height: 80vh;
   font-size: 400px;
 }
+
+@media (max-width: 900px) {
+  .d-block {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 750px) {
+  .d-block {
+    height: 60vh;
+  }
+}
+
+@media (max-width: 650px) {
+  .d-block {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .d-block {
+    height: 40vh;
+  }
+}
 /*# sourceMappingURL=slide.css.map */
