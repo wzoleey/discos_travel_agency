@@ -38,14 +38,24 @@ const Reservation = () => {
     <div className="reservationForm">
       <h3>Reservation</h3>
 
-      <input className="input" type="email" name="email" id="email" placeholder="Email" required />
-      <input className="input" type="text" name="city" id="city" placeholder="City" required />
-      <input className="input" type="text" name="address" id="address" placeholder="Street name" required />
+      <input className="input" type="email" name="email" id="email" placeholder="Email address" required />
+
+      <input className="input" type="text" name="city" id="city" placeholder="City" />
+
+      <input className="input" type="text" name="hotelName" id="hotelName" placeholder="Hotel name" required />
+
       <div className="num">
-        <input className="input" type="number" name="zipCode" id="zipCode" placeholder="Zip code" required />
-        <input className="input" type="number" name="streetN" id="streetN" placeholder="Street num." required />
+        <input className="input" type="number" name="numberOfAdult" id="numberOfAdult" placeholder="Adult" required />
+        <input className="input" type="number" name="numberOfChild" id="numberOfChild" placeholder="Child" required />
+        <input className="input" type="number" name="numberOfRoom" id="numberOfRoom" placeholder="Room" required />
       </div>
-      <input className="input" type="text" name="other" id="other" placeholder="Other" />
+
+      <label>Start of booking</label>
+      <input className="input" type="date" name="datumStart" id="datum" placeholder="Datum" />
+
+      <label>End of booking</label>
+      <input className="input" type="date" name="datumEnd" id="datum" placeholder="Datum" />
+
       <input className="button" type="button" value="Submit" onClick={() => setInputData(true)} />
     </div>
   );

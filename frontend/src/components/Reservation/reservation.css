@@ -10,20 +10,32 @@
 .reservationForm .input {
   width: 400px;
   height: 60px;
-  margin: 20px;
+  margin: 15px;
   padding-left: 8px;
   border: 2px solid black;
   border-radius: 20px;
   outline: none;
 }
 
-.reservationForm .num input {
-  width: 175px;
+.reservationForm .num .input {
+  width: 105px;
+  height: 50px;
+}
+
+.reservationForm label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  height: 50px;
+  width: 400px;
+  border-radius: 20px;
 }
 
 .reservationForm .button {
   height: 60px;
   width: 160px;
+  margin: 10px;
   border: none;
   border-radius: 20px;
   color: white;

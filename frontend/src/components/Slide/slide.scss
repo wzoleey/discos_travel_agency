@@ -1,16 +1,16 @@
 .d-block {
-	height: 80vh;
-	font-size: 400px;
-	@media (max-width: 900px) {
-		height: 70vh;
-	}
-	@media (max-width: 750px) {
-		height: 60vh;
-	}
-	@media (max-width: 650px) {
-		height: 50vh;
-	}
-	@media (max-width: 600px) {
-		height: 40vh;
-	}
+  height: 80vh;
+  font-size: 400px;
+  @media (max-width: 900px) {
+    height: 70vh;
+  }
+  @media (max-width: 750px) {
+    height: 60vh;
+  }
+  @media (max-width: 650px) {
+    height: 50vh;
+  }
+  @media (max-width: 600px) {
+    height: 40vh;
+  }
 }

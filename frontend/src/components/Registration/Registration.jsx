@@ -40,7 +40,7 @@ const Registration = () => {
   return (
     <div className="registration">
       <div className="picture">
-        <img src="../../../images/registration.jpg" />
+        <img src="../../../images/registration.jpg" alt="" />
       </div>
       <div className="registrationForm">
         <h3>Registration</h3>

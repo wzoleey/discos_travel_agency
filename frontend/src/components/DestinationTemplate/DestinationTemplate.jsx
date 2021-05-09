@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import "./destinationTemplate.css";
-import Reservation from "../Reservation/Reservation";
 
 function DestinationTemplate({ hotels }) {
   const [showMore, setShowMore] = useState(false);
-  const [reservation, setReservation] = useState(false);
 
   return (
     <div className="card">
@@ -13,7 +11,7 @@ function DestinationTemplate({ hotels }) {
       <p className="price">
         Price: <span>{hotels.price}€</span> /day/person
       </p>
-      <img src={hotels.image} />
+      <img src={hotels.image} alt=""/>
 
       <button className="showButton" onClick={() => setShowMore((state) => !state)}>
         {showMore ? "Show less" : "Show more"}

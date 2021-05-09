@@ -1,20 +1,12 @@
 [
   {
-    "username": "BálaBála",
-    "email": "zoltan.kadar1@gmail.com",
-    "city": "Fiji",
-    "address": "ff",
-    "zipCode": "2132",
-    "streetN": "5",
-    "other": "zzt"
-  },
-  {
-    "username": "BálaBála",
-    "email": "zoltan.kadar1@gmail.com",
-    "city": "Fiji",
-    "address": "ff",
-    "zipCode": "2132",
-    "streetN": "44",
-    "other": "zzt"
+    "email": "kissand@gmail.com",
+    "city": "London",
+    "hotelName": "Hotel plaza",
+    "numberOfAdult": "2",
+    "numberOfChild": "1",
+    "numberOfRoom": "1",
+    "datumStart": "2021-05-12",
+    "datumEnd": "2021-05-16"
   }
 ]

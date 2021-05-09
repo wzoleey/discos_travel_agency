@@ -2,12 +2,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-	h3 {
-		margin: 40px 0px 0px 0px;
-		@media (max-width: 650px) {
-			font-size: 20px;
-		}
-	}
+  h3 {
+    margin: 40px 0px 0px 0px;
+    @media (max-width: 650px) {
+      font-size: 20px;
+    }
+  }
   .input-button {
     margin: 30px 0px;
     input {
@@ -16,21 +16,21 @@
       margin-right: 30px;
       outline: none;
       text-align: center;
-			color: white;
-			background-color: rgba(52, 56, 73, 0.8); 
-			border: none;
-			border-radius: 10px;
+      color: white;
+      background-color: rgba(52, 56, 73, 0.8);
+      border: none;
+      border-radius: 10px;
     }
-		::placeholder {
-			color: white;
-		}
+    ::placeholder {
+      color: white;
+    }
     button {
       height: 40px;
       width: 100px;
       border-radius: 10px;
-			color: white;
+      color: white;
       background-color: rosybrown;
-			border: none;
+      border: none;
     }
   }
   .destination-temp {

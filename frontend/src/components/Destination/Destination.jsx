@@ -11,7 +11,6 @@ const Destination = () => {
   const [response, setResponse] = useState(true);
   const [isShow, setIsShow] = useState(true);
 
-  console.log(data);
   useEffect(() => {
     setData([]);
 
@@ -41,7 +40,7 @@ const Destination = () => {
 
   return (
     <div className="destination">
-			<h3>Book a hotel with us from anywhere in the world.</h3>
+      <h3>Book a hotel with us from anywhere in the world.</h3>
       <div className="input-button">
         <input
           type="text"
@@ -53,7 +52,7 @@ const Destination = () => {
       </div>
 
       <div className="destination-temp">
-        {data.map((hotels) => (
+        {data.map((hotels, hotelsRes) => (
           <DestinationTemplate key={uuidv4()} hotels={hotels} />
         ))}
       </div>
