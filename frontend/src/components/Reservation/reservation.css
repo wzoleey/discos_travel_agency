@@ -1,7 +1,33 @@
-.reservation {
-  position: absolute;
-  height: 600px;
+.reservationForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.reservationForm .input {
   width: 400px;
-  border: 2px solid red;
+  height: 60px;
+  margin: 20px;
+  padding-left: 8px;
+  border: 2px solid black;
+  border-radius: 20px;
+  outline: none;
+}
+
+.reservationForm .num input {
+  width: 175px;
+}
+
+.reservationForm .button {
+  height: 60px;
+  width: 160px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  background-color: rosybrown;
 }
 /*# sourceMappingURL=reservation.css.map */

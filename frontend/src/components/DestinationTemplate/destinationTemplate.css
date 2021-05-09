@@ -111,4 +111,18 @@
   color: #d3d338;
   font-weight: bolder;
 }
+
+.card .moreInfo .leftSide a {
+  color: #d3d338;
+  font-size: larger;
+  background-color: gray;
+  margin: 10px;
+  padding: 8px;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.card .moreInfo .leftSide a:hover {
+  padding: 12px;
+}
 /*# sourceMappingURL=destinationTemplate.css.map */
