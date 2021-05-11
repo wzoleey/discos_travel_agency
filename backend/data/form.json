@@ -8,5 +8,15 @@
     "numberOfRoom": "1",
     "datumStart": "2021-05-12",
     "datumEnd": "2021-05-16"
+  },
+  {
+    "email": "nagyevelin@gmail.com",
+    "city": "London",
+    "hotelName": "Maria hotel",
+    "numberOfAdult": "4",
+    "numberOfChild": "2",
+    "numberOfRoom": "2",
+    "datumStart": "2021-05-17",
+    "datumEnd": "2021-05-21"
   }
 ]

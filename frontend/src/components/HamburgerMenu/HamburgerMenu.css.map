@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "AAAA,AAAA,UAAU,CAAC;EACT,KAAK,EAAE,SAAS;CACjB",
     "sources": [
-        "HamburgerMenu.scss"
+        "hamburgerMenu.scss"
     ],
     "names": [],
-    "file": "HamburgerMenu.css"
+    "file": "hamburgerMenu.css"
 }
