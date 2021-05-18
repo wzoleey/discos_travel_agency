@@ -32,7 +32,7 @@
 	{
 		"city": "München",
 		"hotel_name": "Pullman Munich",
-		"number_of_rooms": 250,
+		"number_of_rooms": 220,
 		"price": 250,
 		"image": "/images/München.jpg",
 		"rating": 6.3,
